@@ -17,7 +17,7 @@ public class Product : BaseEntity
 
     //Navigation Properties 
 
-    public ProductType  ProductType { get; set; }
+    public ProductType?  ProductType { get; set; }
 
-    public  ProductBrand ProductBrand { get; set; }
+    public  ProductBrand? ProductBrand { get; set; }
 }
